@@ -1,0 +1,24 @@
+{
+  "name": "ch-reto-004",
+  "version": "1.0.0",
+  "description": "CRUD con servidor express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "socket.io": "^4.5.1",
+    "uuidjs": "^4.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
